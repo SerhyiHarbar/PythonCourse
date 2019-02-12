@@ -1,4 +1,5 @@
-SSN_white_list = [1234, 2342, 2331, 6547, 44557]
+SSN_white_list = [1234, 2342, 2331, 6547, 7777]
+
 
 while True:
 
@@ -16,3 +17,5 @@ while True:
     if int(user_ssn_number) not in SSN_white_list:
         print('Your not permissions')
         continue
+
+print('Ok')
