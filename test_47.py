@@ -16,3 +16,5 @@ while True:
     if int(user_ssn_number) not in SSN_white_list:
         print('Your not permissions')
         continue
+
+print('Ok')
